@@ -5,55 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Student Bio</title>
+    <title>Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-
 <body>
-    <header>
-        <h1>Student Bio</h1>
-    </header>
+    
+<div class="container">
 
-    <div class="container">
-
-        <section id="main-bio">
-            <h2>Student Bio</h2>
-
-            <img id="bio-image" src="https://placehold.it/200x200" alt="Jason Coleman">
-
-            <p>My name is Jason Coleman, I am a Network Engineer from Charlottesville Virginia.</p>
-        </section>
-
-        <section id="contact-info">
-            <h3>Contact info</h3>
-
-            <ul>
-                <li>
-                    <strong>Email:</strong>
-                    <a href="mailto:jayemcee121@gmail.com">jayemcee121@gmail.com</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+        <a class="navbar-brand" href="#">Jason Coleman</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active right-side">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li>
-                    <strong>Github:</strong>
-                    <a href="http://www.github.com/JmCole19">JmCole19</a>
+                <li class="nav-item right-side">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
-                <li>
-                    <strong>Portfolio:</strong>
-                    <a href="#">Coming Soon</a>
+                <li class="nav-item right-side">
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
-        </section>
+        </div>
+    </nav>
+
+    <div class="row">
+        <img src="images/IMG_20200125_161552.jpg" alt="Jason Coleman" width="250px" height="350px"
+            class="img-fluid float-left shadow-lg border border-dark"
+            style="margin-right: 15px; margin-left: 17px;">
+        <p class="lead col-sm-4">
+            My name is Jason Coleman, I am a (former) Network Engineer from Charlottesville Virginia. I am currently
+            taking classes at the University of Richmond for Software Developement, and spend most of my free time
+            studying, fly-fishing, snow boarding or relaxing with my family. I have a cat named Oliver who is a
+            jerk. Here's a pic of Ollie! <img class="shadow-lg" src="images/IMG_1336.JPG" width="150px"
+                height="180px" alt="Oliver" style="margin-top: 10px;">
+        </p>
+        <p class="lead col-md-4">
+            I am orginally from Baltimore, Maryland, where i grew up not too far from the Harbor. The move from
+            baltimore to Charlottesville was a drastic life change for me and my two siblings, Tyler(24m) and
+            Logan(16f). My dad had started a new business and wanted to move us to a safer and more comfortable
+            place, and we've been here since then (roughly 10 years ago now). I enjoy Virginia a lot more, there's
+            so much nature and so many outdoor activities, I remember when we moved here and my brother and i were
+            shocked at our massive forest in the back yard (which was really only a half an acre).
+        </p>
+
+        <p class="lead" style="margin-left: 15px; margin-right: 15px; margin-top: 30px;">
+            About a year ago now I met my amazing girlfriend, Christyn. She is my rock, and keeps me going even
+            through the hardest times. My pursuit of education, and even going back to school and taking this class,
+            can be credited to Christyn. She always encourages me to better myself, and I honestly don't know what
+            I'd do without her. She's also cute as hell and a total goofball. It felt right to dedicate at least
+            this small section to her, you're the best!
+        </p>
     </div>
 
-    <div class="card" style="width: 18rem;">
-        <img src="http://placehold.it/100x20" class="card-img-top" alt="Placeholder">
-        <div class="card-body" style="background: #eee;">
-          <h5 class="card-title">Card (under construction)</h5>
-          <p class="card-text">This currently links to my GitHub portfolio, but will eventually do something else.</p>
-          <a href="http://github.com/JmCole19" class="btn btn-danger">My GitHub</a>
-        </div>
-      </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+        <span class="navbar-brand mb-2 h1 mc-auto"></span>
+    </nav>
 
+</div>
 </body>
+
 
 </html>
